@@ -1,4 +1,4 @@
-from Pessoa import Pessoa
+from entidades.Pessoa import Pessoa
 
 
 class CalculadoraIMC:
@@ -27,7 +27,3 @@ def classifica_imc(imcFinal):
         print(f"Seu IMC eh: {imcFinal:.2f} - Obesidade II")
     else:
         print(f"Seu IMC eh: {imcFinal:.2f} - Obesidade III (morbida)")
-
-
-pessoa = Pessoa()
-calcula_imc(pessoa)
