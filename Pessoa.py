@@ -8,8 +8,5 @@ class Pessoa:
 
 def mostrar_dados(self):
     print(f"Nome: {self.nome}")
-    print(f"Altura: {self.altura}")
+    print(f"Altura: {self.altura:.2f}")
     print(f"Peso: {self.peso}")
-
-
-pessoa1 = Pessoa()
